@@ -1,0 +1,161 @@
+ /* navbar */
+ .img1 {
+    height: 40px;
+    width: 108px;
+}
+
+@media(max-width:768px) {
+    .nav-vl {
+        display: none;
+    }
+}
+
+.navbar .nav-vl {
+    border: 2px solid #d6d6d678;
+    height: 24px;
+    margin: auto 16px;
+    /* display: block; */
+}
+
+/* breadcrumb */
+.breadcrumb {
+    background-color: rgb(216, 215, 215);
+    padding-left: 4px;
+    border-radius: 0px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.page-container {
+    max-width: 800px;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 80px 20px;
+}
+
+.filter-bar>div {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.filter-bar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(36, 35, 35);
+}
+
+/* property-card */
+.property-card {
+    /* border: 1px solid black; */
+    /* color: aliceblue; */
+    padding: 15px 0px;
+    border-radius: 2px;
+    margin: 0px auto 20px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.image-container img {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+}
+
+.star-container i {
+    color: rgb(248, 21, 21);
+    font-size: 10px;
+    /* margin-right: 6px; */
+
+}
+
+.intrested-container {
+    text-align: center;
+}
+
+.detail-container {
+    padding-bottom: 10px;
+}
+
+.intrested-container i {
+    color: rgb(248, 21, 21);
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.intrested-text {
+    font-size: 10px;
+    color: black;
+}
+
+.property-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.property-address {
+    color: #6f6f6f;
+}
+
+.property-gender img {
+    width: 40px;
+}
+
+.rent {
+    font-weight: bold;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.rent-unit {
+    font-size: 13px;
+    color: #6f6f6f;
+}
+
+.button-container .btn {
+    font-size: 14px;
+    border-radius: 0px;
+    width: 140px;
+    float: right;
+}
+
+/* //footer */
+.footer {
+    background-color: #333333;
+}
+
+.footer-container {
+    padding: 25px;
+}
+
+.footer-copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media(max-width:768px) {
+    .footer-city {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Filter-modal */
+#filter-modal .modal-body .btn-active {
+    color: aliceblue;
+    background-color: rgb(22, 21, 21);
+}
+
+#filter-modal .modal-body button {
+    font-size: 14px;
+    width: 100px;
+    margin: 5px;
+
+}
